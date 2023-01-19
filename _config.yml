@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Become the Wisest.dev"
+email: juhan@wisest.dev
+description: >- # this means to ignore newlines until "baseurl:"
+  Articles and video courses about Drools rule engine
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wisest.dev" # the base hostname & protocol for your site, e.g. http://example.com
+repository: wisest-dev/wisest.dev
+
+header_image: assets/developer-icon.png
+
+google_analytics:
+comments: true
+disqus: purelog-jekyll
+
+author: Juhan Aasaru
+author_bio: >-
+  Hey there! My name is Juhan. I have two video courses about Drools in Udemy.
+  Check them out.
+author_pic: http://digiarhiiv.mm.ee/digiarhiiv/sites/default/files/styles/thumbnail/public/andmebaasi%20692.jpg
+paginate: 4
+paginate_path: "/:num/"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+permalink: /:categories/:title
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: Juhan Aasaru
+      avatar: assets/developer-icon-sm.png
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: journal-entry
+      content-type: journals
+
+# Allows all pages to be put into `_pages` folder
+# for easier navigation and better SEO.
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  courses:
+    output: true
+    permalink: /video-courses/:title
+  notes:
+    output: true
+    permalink: /notes/:title
+  journals:
+    output: true
+    permalink: /journals/:title
+
+# Exclude from processing.
+exclude:
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
