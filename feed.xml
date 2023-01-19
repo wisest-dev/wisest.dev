@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://wisest.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wisest.dev/" rel="alternate" type="text/html" /><updated>2023-01-19T17:23:35+00:00</updated><id>https://wisest.dev/feed.xml</id><title type="html">Become the Wisest.dev</title><subtitle>Articles and video courses about Drools rule engine</subtitle><author><name>Juhan Aasaru</name></author><entry><title type="html">Intro to MVEL and how Drools uses it</title><link href="https://wisest.dev/drools/introduction-to-mvel-and-how-Drools-uses-it" rel="alternate" type="text/html" title="Intro to MVEL and how Drools uses it" /><published>2023-01-19T00:00:00+00:00</published><updated>2023-01-19T00:00:00+00:00</updated><id>https://wisest.dev/drools/introduction-to-mvel-and-how-Drools-uses-it</id><content type="html" xml:base="https://wisest.dev/drools/introduction-to-mvel-and-how-Drools-uses-it">&lt;p&gt;Drools syntax&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-drools&quot; data-lang=&quot;drools&quot;&gt;rule &quot;name&quot;
+  attributes
+when
+  Left-Hand-Side -&amp;gt; written in MVEL or Java
+then
+  Right-Hand-Side -&amp;gt; written in Java
+end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Juhan Aasaru</name></author><category term="Drools" /><category term="Drools" /><summary type="html">Drools syntax</summary></entry></feed>

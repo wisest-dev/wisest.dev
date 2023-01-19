@@ -1,0 +1,15 @@
+[
+  
+    {
+
+      "title"    : "Intro to MVEL and how Drools uses it",
+      "url"      : "/drools/introduction-to-mvel-and-how-Drools-uses-it",
+      "content"  : "Drools syntax\n\nrule \"name\"\n  attributes\nwhen\n  Left-Hand-Side -&gt; written in MVEL or Java\nthen\n  Right-Hand-Side -&gt; written in Java\nend\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk."
+
+    },
+  
+
+  
+
+  
+]

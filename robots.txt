@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://wisest.dev/sitemap.xml
