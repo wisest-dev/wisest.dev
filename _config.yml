@@ -89,7 +89,7 @@ collections:
     permalink: /:title
   courses:
     output: true
-    permalink: /video-courses/:title
+    permalink: /courses/:title
   notes:
     output: true
     permalink: /notes/:title
