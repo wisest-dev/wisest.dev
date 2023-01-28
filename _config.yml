@@ -70,6 +70,12 @@ defaults:
       content-type: notes
   - scope:
       path: ""
+      type: coupons
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
       type: courses
     values:
       layout: post

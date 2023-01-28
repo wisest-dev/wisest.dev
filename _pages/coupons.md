@@ -1,0 +1,4 @@
+---
+layout: coupons
+permalink: /coupons
+---
