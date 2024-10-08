@@ -34,9 +34,10 @@ disqus: purelog-jekyll
 
 author: Juhan Aasaru
 author_bio: >-
-  Hey there! My name is Juhan. I have two video courses about Drools in Udemy.
-  Check them out.
-author_pic: http://digiarhiiv.mm.ee/digiarhiiv/sites/default/files/styles/thumbnail/public/andmebaasi%20692.jpg
+  Hey there! My name is Juhan.
+  I'm a Software Architect and I have 20 years of experience in IT as a developer, architect, CTO and an analyst.
+  I'm here to help you out get your first job as a Software Developer.
+author_pic: /assets/img/juhan-and-the-bear.jpg
 paginate: 4
 paginate_path: "/:num/"
 
