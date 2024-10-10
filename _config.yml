@@ -21,7 +21,7 @@
 title: "Become the Wisest.dev"
 email: juhan@wisest.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Articles and video courses about Drools rule engine
+  Articles and a video course about getting a job as a Junior Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wisest.dev" # the base hostname & protocol for your site, e.g. http://example.com
 repository: wisest-dev/wisest.dev
@@ -35,8 +35,12 @@ disqus: purelog-jekyll
 author: Juhan Aasaru
 author_bio: >-
   Hey there! My name is Juhan.
-  I'm a Software Architect and I have 20 years of experience in IT as a developer, architect, CTO and an analyst.
-  I'm here to help you out get your first job as a Software Developer.
+  I'm a Software Architect, and I have 20 years of experience in IT as a Software Developer,
+  Solution Architect, CTO and Systems Analyst.
+  
+  I'm also the author of a best-selling course in Udemy that is about Drools domain-specific programming language.
+  
+  I'm here to help you get your first Software Developer job.
 author_pic: /assets/img/juhan-and-the-bear.jpg
 paginate: 4
 paginate_path: "/:num/"
