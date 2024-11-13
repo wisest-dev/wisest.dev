@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Stand out and Get Hired as a Junior Software Engineer"
+title: "How to Stand Out and Get Hired as a Junior Software Engineer"
 date: 2024-10-08
 tags:
   - Junior Developer
